@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(165, 180, 180);
+}
+#p1{
+    color: brown;
+}
+
+#p2{
+    color: aqua;
+}
+
+.divs{
+    background-color: bisque;
+}
+
+#section01{
+    background-color: red;
+}
+
+#section02{
+    background-color: blueviolet;
+}
+
+#link01{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+#link02{
+    color: rgb(131, 131, 131);
+    font-size: 54px;
+}
+
+.titulo{
+    background-color: rgb(250, 250, 250);
+    color: green;
+    border: black solid 2px;
+}

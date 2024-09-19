@@ -1,0 +1,24 @@
+body{
+    background-image: url("213478.jfif");
+}
+
+#p1{
+    /* border-left-width: 2px; */
+    /* border-color: aqua;
+    border-style: solid; */
+    border: outset 10px aqua;
+}
+
+#p2{
+    text-shadow: 1px 1px 3px blue;
+}
+
+img{
+    max-width: 200px;
+    box-shadow: 1px 1px 3px red;
+}
+
+figure{
+    border: 2px solid black;
+    border-radius: 10px;
+}
