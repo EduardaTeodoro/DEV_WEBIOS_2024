@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+}
+p{
+    /* padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-bottom: 100px; */
+    padding: 50px 100px 20px 100px;
+}
+img{
+    width: 300px;
+    padding: 50px;
+    margin: 20;
+}
+
+#img1{
+    margin-left: 40px;
+}
+#img2{
+    margin-left: 40px;
+}
+#img3{
+    margin-left: 40px
+}
