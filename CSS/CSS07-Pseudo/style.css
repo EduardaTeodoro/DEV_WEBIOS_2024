@@ -1,0 +1,61 @@
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100px:
+    border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+
+}
+
+p:hover{
+    background-color: rgb(188, 169, 206);
+    cursor:pointer;
+}
+
+input:focus{
+    background-color: rgb(225, 172, 250);
+}
+
+li:first-child{
+    border: 1px solid rgb(222, 150, 255);
+}
+li:nth-child(3){
+    border: 1px solid rgb(222, 150, 255);
+}
+li:nth-child(5){
+    border: 1px solid rgb(222, 150, 255);
+}
+
+#p2::after{
+    content: "-aqui add o after";
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#p2::before{
+    content: "oi boa noite-";
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.p3::first-letter{
+    font-size: 4em;
+    color: rgb(222, 150, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.p3::first-line{
+   background-color: rgb(150, 169, 255);
+    
+}
+
+.p3::selection{
+    background-color: deeppink;
+    
+}
