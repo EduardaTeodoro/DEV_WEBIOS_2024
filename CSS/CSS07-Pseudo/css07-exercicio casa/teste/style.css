@@ -1,0 +1,118 @@
+
+:root {
+    --marrom-escuro: #533618;
+    --marrom-medio: #533618;
+    --marrom-claro: #725436;
+    --cinza: #8c867c;
+    --cinza-claro: #c1c2bc;
+    --verde: #314a20;
+  }
+  
+  body {
+    background-color: #8c867c;
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 1%;
+    font-weight: bold;
+  }
+  
+  
+  .container {
+    padding: 2em;
+  }
+  
+  .bloco1{
+  width: 100%;
+  }
+  
+  .bloco2{
+    width: 100%;
+  }
+  
+  .bloco3{
+    width: 100%;
+  }
+  
+  .img-inicio {
+    width: 98%;
+    border: 1px solid var(--marrom-claro);
+    border-radius: 10px;
+    height: 65vh;
+  }
+  
+  .img-inicio:hover {
+    width: 100%;
+    box-shadow: 10px 10px 10px #533618;
+  }
+  
+  .botao {
+    background-color: #725436;
+    color: #c1c2bc;
+  }
+  
+  .botao:hover {
+    background-color: var(--verde);
+  }
+  
+  .iframe {
+    float: left;
+  }
+  
+  .dados{
+    width: 100%;
+    padding: 2%;
+  }
+  
+  /* .bloco3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  } */
+  
+  .noticias{
+    width: 20%;
+    margin: 2%;
+    float: left;
+  }
+  .noticias img{
+  width: 100%;
+  }
+  
+  .texto-da-noticia {
+    font-size: 2em;
+  }
+  
+  .texto-da-noticia::first-letter {
+    font-size: 170%;
+    color: #533618;
+  }
+  
+  footer{
+    width: 100%;
+    height: 10%;
+  }
+  
+  footer p::before {
+    content: "©";
+    margin-right: 5px;
+  }
+  
+  footer p::before {
+    content: "todos os direitos reservados";
+  }
+  
+  footer p::after {
+    content: " © Maria Eduarda Acyole";
+  }
+  
+  ::selection {
+    background-color: #314a20;
+    color: white;
+  }
+  
+  .iframe{
+    padding: 0px;
+    margin: 0px;
+  }
